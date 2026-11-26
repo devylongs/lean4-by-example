@@ -1,6 +1,6 @@
 # Lean 4 by Example
 
-A hands-on introduction to programming and proving in Lean. Each lesson pairs short explanations with runnable code and shows the output captured from Lean. The format is inspired by [Go by Example](https://gobyexample.com/).
+A hands-on introduction to programming and proving in Lean. Each lesson pairs short explanations with runnable code and shows the output captured from Lean.
 
 ## Read the handbook
 
