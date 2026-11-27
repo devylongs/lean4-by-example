@@ -89,7 +89,7 @@ def page(title, description, content, base=""):
 </head>
 <body><main>{content}</main>
 <footer>by <a rel="author" href="https://github.com/devylongs">Longs Pemun Gotar</a>
- | <a href="https://github.com/devylongs/lean4byexample">source</a>
+ | <a href="https://github.com/devylongs/lean4-by-example">source</a>
  | <a rel="license" href="https://creativecommons.org/licenses/by/3.0/">license</a></footer>
 </body></html>"""
 
