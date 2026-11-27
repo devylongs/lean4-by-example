@@ -22,10 +22,15 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Install elan and Lean toolchain
+      - name: Install Lean toolchain
         run: |
-          curl https://lean-lang.org -sSf | sh -s -- -y --default-toolchain none
-          echo "$HOME/.elan/bin" >> $GITHUB_PATH
+          curl -fsSL https://elan.lean-lang.org/elan-init.sh | sh -s -- -y --default-toolchain none
+          echo "$HOME/.elan/bin" >> "$GITHUB_PATH"
+
+      - name: Verify Lean installation
+        run: |
+          lean --version
+          lake --version
 
       - name: Build static site
         run: python3 build.py
