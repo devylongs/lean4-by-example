@@ -40,4 +40,7 @@ def square (n : Nat) : Nat := n * n
 ```
 
 Use `#eval` to show a value and `#check` to inspect a type or theorem. A file defining `main` runs with `lean --run`. Rebuild to refresh the index, navigation, and captured output.
-# lean4byexample
+
+## License
+
+Lean 4 by Example is copyright Longs Pemun Gotar. The project's original work is licensed under the [Creative Commons Attribution 3.0 Unported License](https://creativecommons.org/licenses/by/3.0/).
